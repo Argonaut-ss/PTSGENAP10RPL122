@@ -1,0 +1,8 @@
+com/example/ptsgenap10rpl122/BuildConfig.java
+ com.example.ptsgenap10rpl122.BuildConfig
+com/example/ptsgenap10rpl122/SecondActivity.java
+ com.example.ptsgenap10rpl122.SecondActivity
+com/example/ptsgenap10rpl122/MainActivity.java
+ com.example.ptsgenap10rpl122.MainActivity
+ com.example.ptsgenap10rpl122.MainActivity$1
+ com.example.ptsgenap10rpl122.MainActivity$2
