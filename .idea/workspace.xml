@@ -75,6 +75,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Argonaut-ss/PTSGENAP10RPL122.git" />
+        <option value="https://github.com/MuhammadSamySyafta/PTSGENAP10RPL0122.git" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1puXJgZtLgbrSDeGPw2KHB6vvzI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -210,7 +218,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -242,6 +277,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1491" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1616043251750" />
+    <state x="404" y="133" key="RollbackChangesDialog" timestamp="1616218957860">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="404" y="133" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1616218957860" />
     <state x="277" y="0" key="SettingsEditor" timestamp="1616159196668">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -250,6 +289,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="584" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1616044662298" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616218962434">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1616218962434" />
     <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1616040364647">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
