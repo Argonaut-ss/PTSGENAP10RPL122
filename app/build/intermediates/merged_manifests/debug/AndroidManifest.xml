@@ -20,6 +20,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.PTSGENAP10RPL122" >
+        <activity android:name="com.example.ptsgenap10rpl122.MainActivity2" />
+        <activity android:name="com.example.ptsgenap10rpl122.DashboardMenu" />
         <activity android:name="com.example.ptsgenap10rpl122.SecondActivity" />
         <activity android:name="com.example.ptsgenap10rpl122.MainActivity" >
             <intent-filter>

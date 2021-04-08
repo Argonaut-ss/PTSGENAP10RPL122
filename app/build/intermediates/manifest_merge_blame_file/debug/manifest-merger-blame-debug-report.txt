@@ -15,7 +15,7 @@
 11-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:7:5-22:19
+13-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:7:5-24:19
 14        android:allowBackup="true"
 14-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -32,63 +32,69 @@
 21        android:testOnly="true"
 22        android:theme="@style/Theme.PTSGENAP10RPL122" >
 22-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:13:9-54
-23        <activity android:name="com.example.ptsgenap10rpl122.SecondActivity" />
-23-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:14:9-61
-23-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:14:19-49
-24        <activity android:name="com.example.ptsgenap10rpl122.MainActivity" >
-24-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:15:9-21:20
-24-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:15:19-47
-25            <intent-filter>
-25-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:16:13-20:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:17:17-69
-26-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:17:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:19:17-77
-28-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:19:27-74
-29            </intent-filter>
-30        </activity>
-31        <activity
-31-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
-32            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-32-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
-33            android:excludeFromRecents="true"
-33-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
-34            android:exported="false"
-34-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
-35            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-35-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
-36        <!--
-37            Service handling Google Sign-In user revocation. For apps that do not integrate with
-38            Google Sign-In, this service will never be started.
-39        -->
-40        <service
-40-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
-41            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-41-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
-42            android:exported="true"
-42-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
-43            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-43-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
-44            android:visibleToInstantApps="true" />
-44-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
-45
-46        <activity
-46-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\bd58b283a1cc043aa695c015854b6118\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-47            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-47-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\bd58b283a1cc043aa695c015854b6118\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-48            android:exported="false"
-48-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\bd58b283a1cc043aa695c015854b6118\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-49            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-49-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\bd58b283a1cc043aa695c015854b6118\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-50
-51        <meta-data
-51-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\17162d086d16c68aa018eb1d701693f7\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
-52            android:name="com.google.android.gms.version"
-52-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\17162d086d16c68aa018eb1d701693f7\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
-53            android:value="@integer/google_play_services_version" />
-53-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\17162d086d16c68aa018eb1d701693f7\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
-54    </application>
-55
-56</manifest>
+23        <activity android:name="com.example.ptsgenap10rpl122.MainActivity2" />
+23-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:14:9-51
+23-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:14:19-48
+24        <activity android:name="com.example.ptsgenap10rpl122.DashboardMenu" />
+24-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:15:9-51
+24-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:15:19-48
+25        <activity android:name="com.example.ptsgenap10rpl122.SecondActivity" />
+25-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:16:9-52
+25-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:16:19-49
+26        <activity android:name="com.example.ptsgenap10rpl122.MainActivity" >
+26-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:17:9-23:20
+26-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:17:19-47
+27            <intent-filter>
+27-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:19:17-69
+28-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:21:17-77
+30-->C:\Users\muhammad samy syafta\AndroidStudioProjects\PTSGENAP10RPL122\app\src\main\AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+34            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+34-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+35            android:excludeFromRecents="true"
+35-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+36            android:exported="false"
+36-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+37            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+37-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+38        <!--
+39            Service handling Google Sign-In user revocation. For apps that do not integrate with
+40            Google Sign-In, this service will never be started.
+41        -->
+42        <service
+42-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+43            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+43-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+44            android:exported="true"
+44-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+45            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+45-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+46            android:visibleToInstantApps="true" />
+46-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\a28c3c65b82bbf0d085fee47aaecdc0e\jetified-play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+47
+48        <activity
+48-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\bd58b283a1cc043aa695c015854b6118\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+49            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+49-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\bd58b283a1cc043aa695c015854b6118\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+50            android:exported="false"
+50-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\bd58b283a1cc043aa695c015854b6118\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+51            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+51-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\bd58b283a1cc043aa695c015854b6118\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+52
+53        <meta-data
+53-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\17162d086d16c68aa018eb1d701693f7\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+54            android:name="com.google.android.gms.version"
+54-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\17162d086d16c68aa018eb1d701693f7\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+55            android:value="@integer/google_play_services_version" />
+55-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\muhammad samy syafta\.gradle\caches\transforms-2\files-2.1\17162d086d16c68aa018eb1d701693f7\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+56    </application>
+57
+58</manifest>

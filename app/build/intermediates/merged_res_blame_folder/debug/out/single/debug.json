@@ -8,6 +8,10 @@
         "source": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\build\\intermediates\\res\\merged\\debug\\layout_itemview.xml.flat",
+        "source": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\src\\main\\res\\layout\\itemview.xml"
+    },
+    {
         "merged": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
@@ -44,12 +48,12 @@
         "source": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logogoogle.png.flat",
-        "source": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\src\\main\\res\\drawable\\logogoogle.png"
-    },
-    {
         "merged": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logogoogle.png.flat",
+        "source": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\src\\main\\res\\drawable\\logogoogle.png"
     },
     {
         "merged": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -64,6 +68,10 @@
         "source": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dashboard_menu.xml.flat",
+        "source": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\src\\main\\res\\layout\\activity_dashboard_menu.xml"
+    },
+    {
         "merged": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ataulogin.png.flat",
         "source": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\src\\main\\res\\drawable\\ataulogin.png"
     },
@@ -74,6 +82,10 @@
     {
         "merged": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_second.xml.flat",
         "source": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\src\\main\\res\\layout\\activity_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main2.xml.flat",
+        "source": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\src\\main\\res\\layout\\activity_main2.xml"
     },
     {
         "merged": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
@@ -88,12 +100,24 @@
         "source": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bahan_adapter.xml.flat",
+        "source": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\src\\main\\res\\layout\\activity_bahan_adapter.xml"
+    },
+    {
         "merged": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logolazadaa.png.flat",
         "source": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\src\\main\\res\\drawable\\logolazadaa.png"
     },
     {
+        "merged": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logog.png.flat",
+        "source": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\src\\main\\res\\drawable\\logog.png"
+    },
+    {
         "merged": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_jenis_bahan.xml.flat",
+        "source": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\src\\main\\res\\layout\\activity_jenis_bahan.xml"
     },
     {
         "merged": "C:\\Users\\muhammad samy syafta\\AndroidStudioProjects\\PTSGENAP10RPL122\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",

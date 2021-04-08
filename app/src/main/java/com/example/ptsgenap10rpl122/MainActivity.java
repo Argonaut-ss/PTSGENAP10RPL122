@@ -1,7 +1,5 @@
 package com.example.ptsgenap10rpl122;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -11,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
@@ -18,6 +18,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.tasks.Task;
+
 
 public class MainActivity extends AppCompatActivity {
     EditText textEmail;
@@ -44,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
                 if (email.equalsIgnoreCase("samy@gmail.com")
                         && password.equalsIgnoreCase("samysyafta")) {
                     Toast.makeText(MainActivity.this, "Sukses Login", Toast.LENGTH_SHORT).show();
+                    Intent pindah = new Intent(MainActivity.this, MainActivity2.class);
+                    startActivity(pindah);
                 }else {
                     Toast.makeText(MainActivity.this,"Gagal Login", Toast.LENGTH_SHORT).show();
                 }

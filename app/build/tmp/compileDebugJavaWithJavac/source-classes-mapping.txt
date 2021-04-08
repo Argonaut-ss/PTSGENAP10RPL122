@@ -1,7 +1,17 @@
 com/example/ptsgenap10rpl122/BuildConfig.java
  com.example.ptsgenap10rpl122.BuildConfig
+com/example/ptsgenap10rpl122/DashboardMenu.java
+ com.example.ptsgenap10rpl122.DashboardMenu
+com/example/ptsgenap10rpl122/MainActivity2.java
+ com.example.ptsgenap10rpl122.MainActivity2
+ com.example.ptsgenap10rpl122.MainActivity2$1
 com/example/ptsgenap10rpl122/SecondActivity.java
  com.example.ptsgenap10rpl122.SecondActivity
+com/example/ptsgenap10rpl122/BahanAdapter.java
+ com.example.ptsgenap10rpl122.BahanAdapter
+ com.example.ptsgenap10rpl122.BahanAdapter$BahanViewHolder
+com/example/ptsgenap10rpl122/JenisBahan.java
+ com.example.ptsgenap10rpl122.JenisBahan
 com/example/ptsgenap10rpl122/MainActivity.java
  com.example.ptsgenap10rpl122.MainActivity
  com.example.ptsgenap10rpl122.MainActivity$1
