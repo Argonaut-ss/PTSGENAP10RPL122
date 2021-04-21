@@ -1881,7 +1881,7 @@ int id counterclockwise 0x7f080078
 int id custom 0x7f080079
 int id customPanel 0x7f08007a
 int id cut 0x7f08007b
-int id cv 0x7f08007c
+int id cvku 0x7f08007c
 int id dark 0x7f08007d
 int id date_picker_actions 0x7f08007e
 int id decelerate 0x7f08007f

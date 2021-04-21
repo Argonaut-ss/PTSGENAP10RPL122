@@ -1,21 +1,26 @@
 package com.example.ptsgenap10rpl122;
 
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
 public class BahanAdapter extends RecyclerView.Adapter<BahanAdapter.BahanViewHolder> {
-    private ArrayList<JenisBahan> dataList, dataListFull;
+    private Callback callback;
+    private ArrayList<JenisBahan> dataList;
 
-    public BahanAdapter(Context applicationContext, ArrayList<JenisBahan> dataList) {
+    interface Callback{
+        void onClick(int Position);
+    }
+
+    public BahanAdapter(ArrayList<JenisBahan> dataList, Callback callback) {
+        this.callback = callback;
         this.dataList = dataList;
-        dataListFull = new ArrayList<>(dataList);
     }
 
     @Override
@@ -38,11 +43,19 @@ public class BahanAdapter extends RecyclerView.Adapter<BahanAdapter.BahanViewHol
 
     public class BahanViewHolder extends RecyclerView.ViewHolder{
         private TextView txtNama, txtNpm;
+        CardView cvku;
 
         public BahanViewHolder(View itemView) {
             super(itemView);
             txtNama = (TextView) itemView.findViewById(R.id.txt_nama_mahasiswa);
             txtNpm = (TextView) itemView.findViewById(R.id.txt_npm_mahasiswa);
+            cvku = (CardView) itemView.findViewById(R.id.cvku);
+            cvku.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    callback.onClick(getAdapterPosition());
+                }
+            });
         }
     }
 }

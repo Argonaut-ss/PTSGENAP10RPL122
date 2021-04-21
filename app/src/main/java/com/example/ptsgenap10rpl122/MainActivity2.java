@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -36,6 +37,18 @@ public class MainActivity2 extends AppCompatActivity {
 
 
         addData();
+
+        adapter = new BahanAdapter(bahanArrayList, new BahanAdapter.Callback() {
+            @Override
+            public void onClick(int position) {
+                Toast.makeText(MainActivity2.this, "cek klik", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
+        recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setAdapter(adapter);
     }
 
     private void addData(){
@@ -43,9 +56,7 @@ public class MainActivity2 extends AppCompatActivity {
         bahanArrayList.add(new JenisBahan("Baju","Recomendasi : 20"));
         bahanArrayList.add(new JenisBahan("Celana", "Recomendasi : 10"));
 
-        adapter = new BahanAdapter(getApplicationContext(), bahanArrayList);
-        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getApplicationContext());
-        recyclerView.setLayoutManager(layoutManager);
-        recyclerView.setAdapter(adapter);
+
+
     }
 }
