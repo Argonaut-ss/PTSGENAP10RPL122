@@ -42,6 +42,11 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(int position) {
                 Toast.makeText(MainActivity2.this, "cek klik", Toast.LENGTH_SHORT).show();
+                Intent move = new Intent(getApplicationContext(),DetailPage.class);
+                JenisBahan mymahasiswa = bahanArrayList.get(position);
+                move.putExtra("nama", mymahasiswa.getNama());
+                move.putExtra("nim", mymahasiswa.getNim());
+                startActivity(move);
             }
         });
 
